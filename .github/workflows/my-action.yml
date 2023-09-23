@@ -20,7 +20,7 @@ jobs:
     steps: 
       # Use github.com/actions/checkout to check out this repo
       - name: Check out this repo
-        uses: action/checkout@v3
+        uses: actions/checkout@v3
 
         # Install necessry paclages
       - name: Install dependencies
